@@ -29,7 +29,6 @@ client.connect(err => {
     const upCommingEvent = client.db(`${process.env.PROJECT_DATABASENAME}`).collection("upCommingEvent");
     const messages = client.db(`${process.env.PROJECT_DATABASENAME}`).collection("messages");
 
-
     // ADD NEW ADMINS
     app.post('/admins', (req, res) => {
         const data = req.body;
