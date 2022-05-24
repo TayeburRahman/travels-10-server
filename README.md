@@ -1,4 +1,4 @@
-# travels A Tourism Site (Server-code)
+# Travels A Tourism Site (Server-code)
 
 ## (MERN Stack Project)
 
